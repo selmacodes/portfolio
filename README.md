@@ -1,12 +1,11 @@
 # Portfolio
-
-Detta är min personliga portfolio där jag visar upp mina projekt och färdigheter inom **frontend-utveckling**.
+**Min personliga frontend-portfolio**
 
 ---
 
 ## Beskrivning
 
-Denna portfolio visar min kompetens inom frontend-utveckling och presenterar utbildning, kontaktinformation samt exempel på projekt. Den innehåller länkar till GitHub och LinkedIn samt möjlighet att ladda ner mitt CV, allt samlat på ett användarvänligt och lättnavigerat sätt.
+Denna portfolio visar min kompetens inom frontend-utveckling och presenterar utbildning, kontaktinformation samt exempel på projekt. Den innehåller länkar till GitHub och LinkedIn samt möjlighet att ladda ner mitt CV, allt samlat på ett enkelt och användarvänligt sätt.
 
 ## Installation
 
