@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selma Koldzo Portfolio 2026">
+    <title>Selma Koldzo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Selma Koldzo</div>
+
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="#about">Om mig</a></li>
+                    <li><a href="#experience">Erfarenhet</a></li>
+                    <li><a href="#projects">Projekt</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.jpg" alt="Selma Koldzo profile picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hej, Jag Är</p>
+                <h1 class="title">Selma Koldzo</h1>
+                <p class="section__text__p2">Frontendutvecklare</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/cv-selma-koldzo.pdf')">Ladda ner CV</button>
+                    <button class="btn btn-color-1" onclick="document.querySelector('#contact').scrollIntoView();">Kontaktinfo</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin-logo.png" alt="My LinkedIn profile" class="icon" onclick="window.open('https://www.linkedin.com/in/selma-koldzo-484728384/', '_blank')">
+                    <img src="./assets/github-logo.png" alt="My Github profile" class="icon" onclick="window.open('https://github.com/selmacodes', '_blank')">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <p class="section__text__p1">Få Reda På Mer</p>
+            <h1 class="title">Om Mig</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/vs-code.jpg" alt="Profile picture" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                            <h3>Erfarenhet</h3>
+                            <p>Frontendutveckling och webbprojekt under utbildning<br>Agila team, Git och versionshantering</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education icon" class="icon">
+                            <h3>Utbildning</h3>
+                            <p>Frontendutvecklare (YH), 2025-2027<br>Yrkeshögskoleexamen (klar juni 2027)</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Jag brinner för att skapa webbplatser som är både användarvänliga och visuellt tilltalande. Genom kunskaper i HTML, CSS och JavaScript kombinerar jag responsiv design med UX-fokus för att bygga digitala lösningar som sätter användaren i centrum. Tillgänglighet och semantisk kod enligt WCAG är viktigt för mig, och jag trivs med att lösa problem, samarbeta i team och bidra med kreativitet. Mitt mål är att kombinera kod, design och tillgänglighet för att skapa webbplatser som fungerar smidigt och ger en genomtänkt användarupplevelse.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <p class="section__text__p1">Utforska Min</p>
+            <h1 class="title">Erfarenhet</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontendutveckling</h2>
+                        <p>Färdigheter från utbildningen</p>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <h3>HTML</h3>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <h3>CSS</h3>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <h3>JavaScript</h3>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <h3>UX</h3>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Backendutveckling</h2>
+                        <p>Färdigheter från utbildningen</p>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <h3>C#.NET</h3>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <h3>ASP.NET Core MVC</h3>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <h3>Entity Framework</h3>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                                <h3>Git</h3>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <p class="section__text__p1">Upptäck Mina</p>
+            <h1 class="title">Projekt</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/modenyheter.jpg" alt="Project 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Modenyheter</h2>
+                        <div class="btn-container">
+                            <a class="btn btn-color-2 project-btn" href="https://github.com/selmacodes/modenyheter.git" target="_blank" rel="noopener noreferrer">
+                                Github
+                            </a>
+                            <a class="btn btn-color-2 project-btn" href="https://selmacodes.github.io/modenyheter/" target="_blank" rel="noopener noreferrer">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/under-development.jpg" alt="Project 2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Projekt Två</h2>
+                        <div class="btn-container">
+                            <a class="btn btn-color-2 project-btn" href="#" onclick="event.preventDefault()">
+                                Github
+                            </a>
+                            <a class="btn btn-color-2 project-btn" href="#" onclick="event.preventDefault()">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/under-development.jpg" alt="Project 3" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Projekt Tre</h2>
+                        <div class="btn-container">
+                            <a class="btn btn-color-2 project-btn" href="#" onclick="event.preventDefault()">
+                                Github
+                            </a>
+                            <a class="btn btn-color-2 project-btn" href="#" onclick="event.preventDefault()">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <p class="section__text__p1">Hör av dig</p>
+            <h1 class="title">Kontakta mig</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon" class="icon contact-icon">
+                    <p><a href="mailto:selma-k@hotmail.se" target="_blank" rel="noopener noreferrer">E-mail</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin-logo.png" alt="LinkedIn icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/selma-koldzo-484728384/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#about">Om mig</a></li>
+                <li><a href="#experience">Erfarenhet</a></li>
+                <li><a href="#projects">Projekt</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <p>Selma Koldzo – Portfolio 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

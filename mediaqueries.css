@@ -1,0 +1,103 @@
+@media (max-width: 1200px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .header-container {
+        padding: 0rem;
+    }
+
+    .header-container>.logo {
+        padding-left: 4rem;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        top: 9rem;
+        right: 1rem;
+        width: 8rem;
+        padding: 0 2.5rem 1rem;
+        background-color: white;
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        border: none;
+        align-items: center;
+    }
+
+    .nav ul li a {
+        padding: 1rem 0;
+    }
+
+    .nav a {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    #profile {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .section__pic-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .section__pic-container img {
+        width: 17rem
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-top: 3rem;
+    }
+
+    .experience-details-container {
+        padding-top: 3rem;
+    }
+
+    .section-container {
+        margin: 0 7rem;
+    }
+
+    footer {
+        height: 5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    #experience,
+    #projects {
+        margin-top: 8rem;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    .section-container {
+        margin: 0 5rem;
+    }
+}
