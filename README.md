@@ -5,11 +5,11 @@
 
 ## Beskrivning
 
-Denna portfolio visar min kompetens inom frontend-utveckling och presenterar utbildning, kontaktinformation samt exempel på projekt. Den innehåller länkar till GitHub och LinkedIn samt möjlighet att öppna mitt CV, allt samlat på ett enkelt och användarvänligt sätt.
+Denna portfolio innehåller projekt från min frontendutbildning samt kontaktuppgifter, länkar till GitHub och LinkedIn och möjlighet att öppna mitt CV.
 
-## Installation
+## Live-demo
 
-Klicka på länken nedan för att se portfolion live:
+Klicka på länken nedan för att öppna portfolion (högerklicka för ny flik).
 
 [Öppna portfolion](https://selmacodes.github.io/portfolio/)
 
