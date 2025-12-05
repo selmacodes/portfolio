@@ -5,7 +5,7 @@
 
 ## Beskrivning
 
-Denna portfolio visar min kompetens inom frontend-utveckling och presenterar utbildning, kontaktinformation samt exempel på projekt. Den innehåller länkar till GitHub och LinkedIn samt möjlighet att ladda ner mitt CV, allt samlat på ett enkelt och användarvänligt sätt.
+Denna portfolio visar min kompetens inom frontend-utveckling och presenterar utbildning, kontaktinformation samt exempel på projekt. Den innehåller länkar till GitHub och LinkedIn samt möjlighet att öppna mitt CV, allt samlat på ett enkelt och användarvänligt sätt.
 
 ## Installation
 
