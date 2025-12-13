@@ -58,7 +58,7 @@
     }
 
     .section__pic-container img {
-        width: 17rem
+        width: 24rem
     }
 
     .about-containers {
@@ -87,10 +87,8 @@
 
 
 @media (max-width: 768px) {
-
-    #experience,
-    #projects {
-        margin-top: 8rem;
+    #profile {
+        margin-bottom: 10rem;
     }
 
     #about {
@@ -99,5 +97,44 @@
 
     .section-container {
         margin: 0 5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hamburger {
+        margin-right: 3.5rem;
+    }
+
+    .section-container {
+        margin: 0 5rem;
+    }
+
+    .section__pic-container img {
+        width: 18rem;
+    }
+
+    #profile {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    #about {
+        margin-top: 1rem;
+    }
+
+    #experience,
+    #projects {
+        height: auto;
+        margin-top: 8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .hamburger {
+        margin-right: 2.4rem;
+    }
+    
+    #profile {
+        margin-bottom: 13rem;
     }
 }

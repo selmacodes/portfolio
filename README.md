@@ -1,11 +1,12 @@
 # Portfolio
+
 **Min personliga frontend-portfolio**
 
 ---
 
 ## Beskrivning
 
-Denna portfolio innehåller projekt från min frontendutbildning samt kontaktuppgifter, länkar till GitHub och LinkedIn och möjlighet att öppna mitt CV.
+I denna portfolio presenteras mina projekt, länkar till GitHub och LinkedIn, kontaktuppgifter samt mitt CV.
 
 ## Live-demo
 

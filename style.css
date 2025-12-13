@@ -157,8 +157,6 @@ a:not(.project-btn):hover {
 /* PROFILE */
 #profile {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 6rem;
     height: 70vh;
 }
@@ -195,8 +193,6 @@ a:not(.project-btn):hover {
 #about {
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -235,8 +231,6 @@ a:not(.project-btn):hover {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .experience-details-container {
@@ -287,8 +281,6 @@ article .icon,
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .project-img {
@@ -315,8 +307,6 @@ article .icon,
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .contact-info-upper-container {
