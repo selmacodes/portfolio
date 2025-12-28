@@ -8,11 +8,13 @@
 
 I denna portfolio presenteras mina projekt, länkar till GitHub och LinkedIn, kontaktuppgifter samt mitt CV.
 
+---
+
 ## Live-demo
 
-Klicka på länken nedan för att öppna portfolion (högerklicka för ny flik).
-
 [Öppna portfolion](https://selmacodes.github.io/portfolio/)
+
+---
 
 ## Projektstruktur
 
@@ -22,11 +24,15 @@ Klicka på länken nedan för att öppna portfolion (högerklicka för ny flik).
 - `mediaqueries.css` - CSS för mobilanpassning och responsiv design
 - `script.js` - Hamburger-meny och interaktivitet
 
+---
+
 ## Tekniker
 
 - Byggt med HTML5, CSS3, JavaScript
 - Responsiv design via media queries
 - Interaktivitet med DOM-manipulation
+
+---
 
 ## Kontakt
 
