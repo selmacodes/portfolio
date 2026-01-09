@@ -28,7 +28,7 @@ I denna portfolio presenteras mina projekt, länkar till GitHub och LinkedIn, ko
 
 ## Tekniker
 
-- Byggt med HTML5, CSS3, JavaScript
+- Byggt med HTML, CSS, JavaScript
 - Responsiv design via media queries
 - Interaktivitet med DOM-manipulation
 
